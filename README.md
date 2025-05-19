@@ -35,3 +35,9 @@ NutriCalc is a smart nutrition analyzer that helps users understand the nutritio
 - Python / HTML / CSS / JavaScript / Google Colab
 - Anuvaad Nutrition Dataset for Indian food items
 
+## 👩‍💻 Developed By
+
+- Puja Nikam
+- Yash Kalaskar
+- Atharv Dubal
+
