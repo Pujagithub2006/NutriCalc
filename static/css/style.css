@@ -1,0 +1,174 @@
+/* General Reset & Fonts */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom right, #e8f5e9, #c8e6c9);
+    background-size: cover;
+    color: #2e7d32;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: #ffffffcc;
+    border-bottom: 2px solid #a5d6a7;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 10px 0 5px;
+    color: #2e7d32;
+    letter-spacing: 1px;
+}
+
+header p {
+    font-size: 1.1em;
+    color: #4caf50;
+}
+
+.logo {
+    width: 60px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+/* Search Section */
+#searchSection {
+    text-align: center;
+    margin: 50px 20px;
+}
+
+#searchInput {
+    padding: 15px 25px;
+    width: 60%;
+    max-width: 600px;
+    font-size: 1.1em;
+    border: 2px solid #66bb6a;
+    border-radius: 40px;
+    outline: none;
+    transition: box-shadow 0.3s, transform 0.2s;
+    background-color: #f1f8e9;
+    color: #2e7d32;
+}
+
+#searchInput:focus {
+    box-shadow: 0 0 15px rgba(102, 187, 106, 0.5);
+    transform: scale(1.03);
+}
+
+/* Suggestions List */
+#suggestions {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+#suggestions li {
+    display: inline-block;
+    background: #e8f5e9;
+    margin: 8px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid #66bb6a;
+    color: #2e7d32;
+    font-weight: 500;
+}
+
+#suggestions li:hover {
+    transform: scale(1.1);
+    background: #66bb6a;
+    color: #fff;
+}
+
+/* Food Details Box */
+#foodDetails {
+    max-width: 700px;
+    margin: 30px auto;
+    background: #ffffffcc;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+#foodDetails h2 {
+    text-align: center;
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+#foodDetails p {
+    font-size: 1.1em;
+    margin: 8px 0;
+    line-height: 1.6;
+    color: #388e3c;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #ffffffcc;
+    border-top: 2px solid #a5d6a7;
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #4caf50;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    #searchInput {
+        width: 90%;
+        font-size: 1em;
+    }
+}
+
+.search-wrapper {
+  position: relative;
+  width: 60%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Input field styling */
+#searchInput {
+  width: 100%;
+  padding: 15px 25px;
+  font-size: 1.1em;
+  border: 2px solid #66bb6a;
+  border-radius: 40px;
+  outline: none;
+  background-color: #f1f8e9;
+  color: #2e7d32;
+  transition: box-shadow 0.3s, transform 0.2s;
+}
+
+/* Camera button floating outside right edge */
+.camera-button {
+  position: absolute;
+  top: 50%;
+  right: -30px; /* pushes it OUTSIDE the bar */
+  transform: translateY(-50%);
+  background-color: #66bb6a;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  line-height: 45px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: background 0.3s ease, transform 0.2s ease;
+  z-index: 2;
+}
+
+.camera-button:hover {
+  background-color: #388e3c;
+  transform: translateY(-50%) scale(1.05);
+}

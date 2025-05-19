@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriFinder - Food Nutrients Search</title>
+
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+      <img src="{{ url_for('static', filename='logo.png') }}">
+
+      <h1>NutriCalc</h1>
+      <p>Your personal food nutrient explorer</p>
+  </header>
+
+  <section id="searchSection">
+    <div class="search-wrapper">
+      <input type="text" id="searchInput" placeholder="Type a food item...">
+
+      <!-- Hidden file input -->
+      <input type="file" id="imageUpload" accept="image/*" hidden>
+
+      <!-- Camera icon button -->
+      <label for="imageUpload" class="camera-button" title="Upload Food Image">
+        📷
+      </label>
+    </div>
+    
+    <ul id="suggestions"></ul>
+  </section>
+
+  <section id="foodDetails"></section>
+
+  <footer>
+      &copy; 2025 NutriFinder | Made with ❤️ for healthy living
+  </footer>
+
+  <script defer src="{{ url_for('static', filename='js/script.js') }}"></script>
+  
+</body>
+</html>
