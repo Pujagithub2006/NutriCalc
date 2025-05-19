@@ -37,7 +37,5 @@ NutriCalc is a smart nutrition analyzer that helps users understand the nutritio
 
 ## 👩‍💻 Developed By
 
-- Puja Nikam
-- Yash Kalaskar
-- Atharv Dubal
+CS-H Group 13 VIT Pune
 
