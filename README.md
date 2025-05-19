@@ -1,4 +1,4 @@
-# 🍎 NutriCalc
+# 🍎 NutriCalc - Image based Nutrients Detector
 
 NutriCalc is a smart nutrition analyzer that helps users understand the nutritional value of their food. You can either:
 
